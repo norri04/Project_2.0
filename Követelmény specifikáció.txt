@@ -11,3 +11,4 @@ A híroldalunk lehetővé tenné a hírek megválogatását, amelyben a különb
 - film 
 - +18 (azaz felnőtt hírek pl baleset durva képkockákkal) opciók közül kerülhetnének kiválasztásra a megjelenülő hírek.
 A hírek olvasása fontos, ezáltal művelődhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreiről. Ezt mi lehetővé tennénk mindenkinek egy kényelmes és felhasználóbarát környezetben.
+Weblapunkat html és php kódolás segítségével hoznánk létre, melyben css formázást használnánk. Ezen felül a híreket beimportálnánk valamint saját forrásból is írnánk.
