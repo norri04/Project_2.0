@@ -20,7 +20,7 @@ html, body {
     line-height: 1;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: #000000;
-    background: rgb(236, 209, 158);
+    background: white;
 }
 
 body {
@@ -39,7 +39,7 @@ header {
     left: 0;
     padding: 15px 10px;
     width: 100%;
-    background: rgba(150, 112, 41, 0.6);
+    background: rgba(78, 76, 71, 0.6);
     color: white;
 }
 
@@ -86,7 +86,8 @@ footer {
     margin-top: 40px;
     padding: 20px 0;
     width: 100%;
-    background: black;
+    background: rgb(78, 76, 71);
+    color: white;
 }
 
 main {
@@ -95,7 +96,12 @@ main {
 }
 
 
-
+.page{
+    border: 1px solid grey;
+    margin: 20px 0;
+    padding: 30px;
+    text-align:justify; 
+}
 .page h1 {
     margin:20px 0px;
     font-size: 18px;
