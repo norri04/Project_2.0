@@ -19,13 +19,18 @@ html, body {
     height: 100%;
     line-height: 1;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #ebebeb;
-    background: #181a1b;
+    color: #000000;
+    background: rgb(236, 209, 158);
 }
 
 body {
     display: flex;
     flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
 }
 
 header {
@@ -34,13 +39,15 @@ header {
     left: 0;
     padding: 15px 10px;
     width: 100%;
-    background: rgba(64, 66, 67, .8);
+    background: rgba(150, 112, 41, 0.6);
+    color: white;
 }
 
 header .container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    height:30px;
 }
 
 header a {
@@ -50,7 +57,7 @@ header a {
 
 header .logo {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 header nav {
@@ -66,12 +73,12 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16x;
 }
 
 header nav ul li a:hover,
 header nav ul li a.active {
-    color: #f1b441;
+    color: #f14141;
 }
 
 footer {
@@ -86,3 +93,54 @@ main {
     flex: 1 0 auto;
     padding-top: 60px;
 }
+
+
+
+.page h1 {
+    margin:20px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: rgb(54, 167, 79);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover
+.dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    }

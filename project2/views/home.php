@@ -1,8 +1,70 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
 
 <?php include_once "_header.php"; ?>
-<div class="page page-home">
-    <h1>Home</h1>
-    
+<div class="page">
+    <h1>Teszt cím szöveg.</h1>
+    <h2>Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.</h2>
 </div>
+
+<div class="page">
+    <h1>Teszt cím szöveg.</h1>
+    <h2>Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. </h2>
+</div>
+
+<div class="page">    
+    <h1>Teszt cím szöveg.</h1>
+    <h2>Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. 
+        Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg. Teszt tartalom szöveg.</h2>
+</div>
+
 <?php include_once "_footer.php"; ?>
