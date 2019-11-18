@@ -97,13 +97,14 @@ main {
 
 
 .page{
-    border: 1px solid grey;
+    background-color:rgb(206, 202, 191);
+    border-radius: 10px;
     margin: 20px 0;
-    padding: 30px;
+    padding: 20px 30px ;
     text-align:justify; 
 }
 .page h1 {
-    margin:20px 0px;
+    margin:10px 0 20px 0;
     font-size: 18px;
     text-align: center;
 }
@@ -142,11 +143,10 @@ main {
     background-color: #ddd;
 }
   
-.dropdown:hover
-.dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
   
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-    }
+}

@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="container">
-            <a class="logo" href="#">QLA News</a>
+            <a class="logo" href="<?php echo url(); ?>">QLA News</a>
             <nav>
                   <ul>
                     <li>
@@ -21,7 +21,11 @@
                     </li>
                     <li>
                            <div class="dropdown">
-                            <button class="dropbtn">Témák</button>
+                                <button class="dropbtn">
+                                    <a <?php echo $page == 'topics' ? 'class="active"' : ''; ?> href="<?php echo url('topics'); ?>">
+                                        Témák
+                                    </a>
+                                </button>
                                 <div class="dropdown-content">
                                 <a <?php echo $page == 'kids' ? 'class="active"' : ''; ?> href="<?php echo url('kids'); ?>">
                                     Gyerek

@@ -13,3 +13,4 @@ if (file_exists("./views/{$page}.php")) {
 } else {
     include_once "./views/404.php";
 }
+?>

@@ -19,3 +19,4 @@ function redirect($page = 'home', $params = []) {
     header("Location: $url");
     die();
 }
+?>
