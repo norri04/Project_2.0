@@ -62,6 +62,16 @@
                             Ajánlottak
                         </a>
                     </li>
+                    <li>
+                        <a <?php echo $page == 'login' ? 'class="active"' : '';?> href="<?php echo url('login');?>">
+                            Bejelentkezés
+                        </a>
+                    </li>
+                    <li>
+                        <a <?php echo $page == 'upload' ? 'class="active"' : '';?> href="<?php echo url('upload');?>">
+                            Feltöltés
+                        </a>
+                    </li>
                  </ul>
             </nav>
         </div>
