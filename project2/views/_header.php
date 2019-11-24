@@ -62,25 +62,18 @@
                             Ajánlottak
                         </a>
                     </li>
-                    <li>
-                        
-                        <a <?php echo $page == 'login' ? 'class="active"' : '';?> href="<?php echo url('login');?>">
-                            Bejelentkezés
-                        </a>
+                    <li>                                               
+                            <?php if(isset($_SESSION['username'])): ?>
 
+                            <?php echo $_SESSION['username']; ?>
 
-                        <?php /* session_start(); ?> //SESSION KEZDÉS UGYAN UGY
-                            <?php if($_SESSION['logged'] == true) : ?> NÉZI HOGY BE VAGY E JELENTKEZVE. HA IGEN:
+                            <a <?php echo $page == 'logout' ? 'class="active"' : '';?> href="<?php echo url('home');?>">Kijelentkezés  </a>
 
-                            <?php echo $_SESSION['username']; ?> KIÍRJA AZ EMAIL CÍMET
+                            <?php else : ?>
 
-                            <a <?php echo $page == 'logout' ? 'class="active"' : '';?> href="<?php echo url('logout');?>">Kijelentkezés  </a> KIJELENTKEZÉS "GOMB"
-
-                            <?php else : ?> EGYÉB ESETBEN PEDIG BE "KELL" JELENTKEZNI
-
-                             <a <?php echo $page == 'login' ? 'class="active"' : '';?> href="<?php echo url('login');?>">Bejelentkezés   </a> UJABB "GOMB" BEJELENTKEZÉSRE
+                             <a <?php echo $page == 'login' ? 'class="active"' : '';?> href="<?php echo url('login');?>">Bejelentkezés   </a>
                                 
-                                <?php endif; */ ?>
+                            <?php endif; ?>
                     </li>
 
                     <li>

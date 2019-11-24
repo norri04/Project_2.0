@@ -16,6 +16,7 @@
 <body>
 	<div class="container">
 		<form action="index.php" method="post">
+			<a href="index.php">Vissza</a>
 			<h3>Admin Bejelentkezés</h3>
   			<div class="form-group">
     			<label for="email">Email cím:</label>
@@ -35,7 +36,6 @@
 
 
 <?php
-//session_start(); Session start értelemszerűen a csekkoláshoz
 	include('db/connection.php');
 		if (isset($_POST['submit'])) 
 		{
@@ -48,16 +48,14 @@
 			{
 				if (mysqli_num_rows($query)>0) 
 				{	
-					//$_SESSION['username'] = $email; globál változó az email megjelenítésére
-    				//$_SESSION['logged'] = true;		 //globál változó arra, hogy be vagyunk e jelentkezve	
+					$_SESSION['username'] = $email;
 					header('location:index.php');
-					//exit;
+					exit;
 				}
 				else
 				{
-					//$_SESSION['logged'] = false;  //globál változó arra, hogy be vagyunk e jelentkezve
 					echo "<script> alert('Hibás adatok, próbálkozzon újra!')</script>";
-					//exit;
+					exit;
 				}
 			}
 		}

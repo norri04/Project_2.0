@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <?php if (!defined('APP_VERSION')) { exit; } ?>
 <?php
 
