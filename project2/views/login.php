@@ -26,15 +26,17 @@
     			<input type="password" class="form-control" name="jelszo" id="pwd">
   			</div>
  			
-  			<input type="submit" name="submit" class="btn btn-primary" value="login">
+  			<input type="submit" name="submit" class="btn btn-primary" value="Bejelentkezés">
+  			<p align="right">*Bejelentkezni csak a szerkesztőknek van lehetősége!</p>
 		</form>
 	</div>
 </body>
 </html>
 
-<?php
-	include('db/connection.php');
 
+<?php
+//session_start(); Session start értelemszerűen a csekkoláshoz
+	include('db/connection.php');
 		if (isset($_POST['submit'])) 
 		{
 			$email=$_POST['email'];
@@ -45,12 +47,17 @@
 			if ($query) 
 			{
 				if (mysqli_num_rows($query)>0) 
-				{					
+				{	
+					//$_SESSION['username'] = $email; globál változó az email megjelenítésére
+    				//$_SESSION['logged'] = true;		 //globál változó arra, hogy be vagyunk e jelentkezve	
 					header('location:index.php');
+					//exit;
 				}
 				else
 				{
+					//$_SESSION['logged'] = false;  //globál változó arra, hogy be vagyunk e jelentkezve
 					echo "<script> alert('Hibás adatok, próbálkozzon újra!')</script>";
+					//exit;
 				}
 			}
 		}
