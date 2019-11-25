@@ -1,0 +1,28 @@
+Áttekintés:-A híroldalunk lehetõvé tenné a hírek megválogatását, 
+	   amelyben a különbözõ menüpontok segítenének.
+	   -A célközönségünk mindenki,aki tudósulni szeretne a napi új hírekkel.
+	   -A Témák legyenek külön menüpontba elhelyezve.
+	   -Témák: - gyerek
+
+		   - állat
+
+		   - politika
+		   
+- sport
+
+		   - celeb
+
+	       	   - közlekedés
+
+		   - játék
+		   
+- film 
+
+		   - +18 (azaz felnõtt hírek pl baleset durva képkockákkal)
+A rendszer funkciói:-A Weboldal tegye lehetõvé a hozzá szólásokat egy adott hírhez más felhasználók számára.
+		    -Jó lenne ha lenne lehetõseg a hírnek az értékelésére akár pontozva, vagy like/dislike formájában.
+		    -A híreknél ne csak a szöveget lássák a felhasználók hanem a képeket is jelenítsen meg a weboldal.
+		    -Ha más híroldalról származik a hír legyen feltüttve/hivatkozva arra az oldalra.
+Alkalmazások müködése:
+
+Design terv:
