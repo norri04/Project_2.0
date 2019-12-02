@@ -2,27 +2,36 @@
 	   amelyben a különbözõ menüpontok segítenének.
 	   -A célközönségünk mindenki,aki tudósulni szeretne a napi új hírekkel.
 	   -A Témák legyenek külön menüpontba elhelyezve.
-	   -Témák: - gyerek
+	   -Témák: - Gyerek
 
-		   - állat
+		   - Állat
 
-		   - politika
+		   - Politika
 		   
-- sport
+- Sport
 
-		   - celeb
+		   - Celeb
 
-	       	   - közlekedés
+	       	   - Közlekedés
 
-		   - játék
+		   - Játék
 		   
-- film 
+- Film 
 
 		   - +18 (azaz felnõtt hírek pl baleset durva képkockákkal)
+	   -A munkára 2  hónapnyi idõ áll rendelkezésre azaz 61 munkanap.
+	   -A bérezés a csoport vezetõ fejlesztõ 450 000FT(négyszázötven-ezer Forint), a többi fejlesztõ 250 000FT(kétszáz-ötven-ezer forint).
+	   -Legyen egy elérhetõség amin ellehet érni a fejlesztõket/szerkesztõket ha valakinek van valami észre vétele akár a hír hitelleségével kapcsolatan vagy jelentkezés céljából szerkesztõnek.
+	   
 A rendszer funkciói:-A Weboldal tegye lehetõvé a hozzá szólásokat egy adott hírhez más felhasználók számára.
-		    -Jó lenne ha lenne lehetõseg a hírnek az értékelésére akár pontozva, vagy like/dislike formájában.
+		    -Jó lenne ha lenne lehetõség a hírnek az értékelésére akár pontozva, vagy like/dislike formájában, de ez nem elsõdleges funkció.
 		    -A híreknél ne csak a szöveget lássák a felhasználók hanem a képeket is jelenítsen meg a weboldal.
 		    -Ha más híroldalról származik a hír legyen feltüttve/hivatkozva arra az oldalra.
+		
 Alkalmazások müködése:
 
-Design terv:
+Design terv:-Egy szolid vissza fogott weboldal legyen,ami tartalmazzon egy menü sávot.
+	    -A menü sávon belül legyen felsorolva az adott hírtípusok.
+	    -Legyen ajánlott híreink és a kezdõ oldalon legyenek feltüntettve az adminok és az oldal szerkesztõi.
+	    -Képeket csak a hírekhez csatoljanak, a híreken kívül csak a logo legyen feltüntetve a Bal felsõ sarokba.(a Logo a weboldal neve.)
+	    
