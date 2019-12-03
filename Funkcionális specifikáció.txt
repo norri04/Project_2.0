@@ -28,7 +28,9 @@ A rendszer funkciói:-A Weboldal tegye lehetõvé a hozzá szólásokat egy adott hírh
 		    -A híreknél ne csak a szöveget lássák a felhasználók hanem a képeket is jelenítsen meg a weboldal.
 		    -Ha más híroldalról származik a hír legyen feltüttve/hivatkozva arra az oldalra.
 		
-Alkalmazások müködése:
+Alkalmazások müködése:	-A hivatkozások probléma nélküli mûködése
+			-Bejelentkezés hibamentes folyamata
+			-Adatbázis kapcsolat kezelése
 
 Design terv:-Egy szolid vissza fogott weboldal legyen,ami tartalmazzon egy menü sávot.
 	    -A menü sávon belül legyen felsorolva az adott hírtípusok.
