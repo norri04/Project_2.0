@@ -1,6 +1,38 @@
 Követelmény specifikáció
 
-A híroldalunk lehetővé tenné a hírek megválogatását, amelyben a különböző menüpontok segítenének. A célközönségünk mindenki, aki tudósulni szeretne a napi új hírekkel. Nem csak otthon a reggeli mellé találnak elfoglaltságot, érdekes híreinkkel a nap bármely percében szórakozhatnak velünk miközben a világ minden tájáról tudhatnak meg új információkat. Témáink között mindenki kedvére válogathatna:
+Bevezetés
+
+A híroldalunk lehetővé tenné a hírek megválogatását, amelyben a különböző menüpontok segítenének.
+A célközönségünk mindenki, aki tudósulni szeretne a napi új hírekkel. 
+Nem csak otthon a reggeli mellé találnak elfoglaltságot, érdekes híreinkkel a nap bármely percében szórakozhatnak velünk,
+miközben a világ minden tájáról tudhatnak meg új információkat.
+
+Követelmény lista:
+Felhasználói oldalról az oldal minél egyszerűbb kezelése, hibamentes működése, és egyértelműsége.
+A cikkek ne legyenek félrevezetőek, manipulatívak.
+Megrendelői oldalról hibamentes működés, a lehető legyegyszerűbb és leggyorsabban működő felépítés.
+Egyszerű külső.
+Fejlesztői oldalról a Megrendelő és fogyasztó igényeinek teljesítése, ezek felülmúlása
+
+Vágyálom rendszer:
+
+A hírek olvasása fontos, ezáltal művelődhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreiről.
+Ezt mi lehetővé tennénk mindenkinek egy kényelmes és felhasználóbarát környezetben.
+
+Weblapunkat html és php kódolás segítségével hoznánk létre, melyben css formázást használnánk.
+
+Ezen felül a híreket beimportálnánk valamint saját forrásból is írnánk.
+
+Phpmyadmin segítségével teremtünk adatbázis kapcsolatot, ahol a szerkesztőket tároljuk nevük, email címük, jelszavuk alapján.
+
+A design minimalista, egy átlagos külsővel rendelkező weboldalt szeretnénk fejleszteni a hírek középpontba helyezésével
+
+A hírekhez lehetne hozzászólni, reagálni rájuk.
+Be lehetne küldeni új híreket, hogy naprakészek lehessünk.
+
+A szerkesztőknek lehetősége van belépni, ezáltál teljes hozzáférést kapniuk az oldal kezeléséhez
+
+Témáink között mindenki kedvére válogathatna:
 - gyerek
 - állat
 - politika
@@ -10,6 +42,3 @@ A híroldalunk lehetővé tenné a hírek megválogatását, amelyben a különb
 - játék
 - film 
 - +18 (azaz felnőtt hírek pl baleset durva képkockákkal) opciók közül kerülhetnének kiválasztásra a megjelenülő hírek.
-A hírek olvasása fontos, ezáltal művelődhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreiről. Ezt mi lehetővé tennénk mindenkinek egy kényelmes és felhasználóbarát környezetben.
-Weblapunkat html és php kódolás segítségével hoznánk létre, melyben css formázást használnánk. Ezen felül a híreket beimportálnánk valamint saját forrásból is írnánk.
-A hírekhez lehetne hozzászólni, reagálni rájuk. Be lehetne küldeni új híreket, hogy naprakészek lehessünk.
