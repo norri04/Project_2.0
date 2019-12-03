@@ -1,0 +1,26 @@
+Bevezetés
+
+A teszttel a program hibáit szeretnénk kiküszöbölni, illetve működő részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+Tesztkörnyezet, szükséges erőforrások
+
+-Dokumentációk ismerete
+-Wamp, illetve phpmyadmin az oldal és adatbázis hozzáféréséhez
+-db nevű mappában található hirek.sql fájl importálása phpmyadminba, egy alapszerkesztő létrehozásához
+
+
+Első Teszt:
+
+Az oldal külsőleg hibátlan
+A fejléc menüpontjai a tervezettként funkcionálnak
+Az oldalak megfelelően működnek, képekkel és tartalmukkal együtt. 
+A bejelentkezés opció részben hibás. Az adatbázis kapcsolat él, de valamiért nem úgy működik ahogy kellene.
+Bárki beléphet, mintha nem venné figyelembe az adatbázist. (Első pár alkalommal még kifogástalanul működött)
+Ebből kifolyolag a menüpont neve se változik kijelentkezésre.
+Minden más jól működik.
+
+Eredmény: Részben megfelelt
+Megjegyzés: A login részen még dolgozni kell, ha ezzel végzünk, kész van.
+
