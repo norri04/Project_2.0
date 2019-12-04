@@ -22,7 +22,7 @@
                     <li>
                            <div class="dropdown">
                                 <button class="dropbtn">
-                                    <a <?php echo $page == 'topics' ? 'class="active"' : ''; ?> href="<?php echo url('topics'); ?>">
+                                    <a>
                                         Témák
                                     </a>
                                 </button>
@@ -56,11 +56,6 @@
                                 </a>
                                 </div>
                             </div>
-                    </li>
-                    <li>
-                        <a <?php echo $page == 'recommended' ? 'class="active"' : ''; ?> href="<?php echo url('recommended'); ?>">
-                            Ajánlottak
-                        </a>
                     </li>
                     <li>                                               
                             <?php if(isset($_SESSION['username'])): ?>
