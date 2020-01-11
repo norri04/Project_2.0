@@ -1,3 +1,27 @@
+<?php
+	$conn = mysqli_connect("localhost","root","","hirek");
+		if(isset($_POST['submit'])) 
+		{
+			$email=$_POST['email'];
+			$jelszo=$_POST['jelszo'];
+
+			$query="SELECT * FROM login WHERE email='{$email}' AND jelszo='{$jelszo}'";
+			$result = mysqli_query($conn,$query);
+
+			if ($res=mysqli_fetch_array($result)) 
+			{
+				echo "<script>alert(\"Bejelentkezés sikeres!\");</script>";
+				$_SESSION["id"] = "id";
+				$_SESSION["email"] = $email;
+				header('location:?p=home');				
+			}
+			else
+			{
+				echo "<script>alert(\"Bejelentkezés sikertelen!\");</script>";
+			}
+		}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +39,7 @@
 </head>
 <body>
 	<div class="container">
-		<form action="index.php" method="post">
+		<form action="?p=login" method="post">
 			<a href="index.php">Vissza</a>
 			<h3>Admin Bejelentkezés</h3>
   			<div class="form-group">
@@ -33,30 +57,3 @@
 	</div>
 </body>
 </html>
-
-
-<?php
-	include('db/connection.php');
-		if (isset($_POST['submit'])) 
-		{
-			$email=$_POST['email'];
-			$jelszo=$_POST['jelszo'];
-
-			$query=mysqli_query($conn,"SELECT * FROM login WHERE email='$email' AND jelszo='$jelszo' ");
-
-			if ($query) 
-			{
-				if (mysqli_num_rows($query)>0) 
-				{	
-					$_SESSION['username'] = $email;
-					header('location:index.php');
-					exit;
-				}
-				else
-				{
-					echo "<script> alert('Hibás adatok, próbálkozzon újra!')</script>";
-					exit;
-				}
-			}
-		}
-?>

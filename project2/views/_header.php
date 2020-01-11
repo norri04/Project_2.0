@@ -58,11 +58,11 @@
                             </div>
                     </li>
                     <li>                                               
-                            <?php if(isset($_SESSION['username'])): ?>
+                            <?php if(isset($_SESSION["id"])): ?>
 
-                            <?php echo $_SESSION['username']; ?>
+                            <?php echo $_SESSION["email"]; ?>
 
-                            <a <?php echo $page == 'logout' ? 'class="active"' : '';?> href="<?php echo url('home');?>">Kijelentkezés  </a>
+                            <a <?php echo $page == 'logout' ? 'class="active"' : '';?> href="<?php echo url('logout');?>">Kijelentkezés  </a>
 
                             <?php else : ?>
 
