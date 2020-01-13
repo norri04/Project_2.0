@@ -1,9 +1,9 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
-
+<link rel="stylesheet" href="css/views.css"  >
 <?php include_once "_header.php"; ?>
 <div class="page">
-    <h1>BALESETEK, TORLÓDÁSOK, RENDKÍVÜLI KÖZLEKEDÉSI ESEMÉNYEK</h1>
-    <h2>2019.11.24 18:45
+    <h1 id="h1">BALESETEK, TORLÓDÁSOK, RENDKÍVÜLI KÖZLEKEDÉSI ESEMÉNYEK</h1>
+    <h2 id="p">2019.11.24 18:45
 A közúti közlekedés biztonságát, folyamatosságát befolyásoló események, közlekedési hírek.
 
 Az M3-as autópályán a Budapest felé vezető oldalon sokan közlekednek, Bag térségében lehet lassulásra készülni.
@@ -26,8 +26,8 @@ Az M5-ös autópályán a Röszke felé vezető oldalon Balástya térségében,
 </div>
 
 <div class="page">
-    <h1>ÚT- ÉS LÁTÁSI VISZONYOK A KÖZUTAKON</h1>
-    <h2>2019.11.24 15:10
+    <h1 id="h1">ÚT- ÉS LÁTÁSI VISZONYOK A KÖZUTAKON</h1>
+    <h2 id="p">2019.11.24 15:10
 Útállapot- és időjárás-jelentések, előrejelzések. Az adatokat naponta többször, meghatározott időközönként frissítjük.
 
 Útállapot, időjárás 2019. november 24-én 15.00-kor
@@ -47,8 +47,8 @@ Napközben kritériumokat elérő veszélyes időjárási jelenség nem várhat�
 </div>
 
 <div class="page">    
-    <h1>NÉGY AUTÓ ÜTKÖZÖTT ÖSSZE </h1>
-    <h2>Az M1-es autópályán, a főváros felé vezető oldalon baleset történt.
+    <h1 id="h1">NÉGY AUTÓ ÜTKÖZÖTT ÖSSZE </h1>
+    <h2 id="p">Az M1-es autópályán, a főváros felé vezető oldalon baleset történt.
 
 A rendelkezésre álló adatok szerint 2019. november 24-én 9 óra 13 perc körül az M1-es autópálya 17-es kilométerszelvényénél, Budaörs térségében négy autó ütközött össze a Budapest irányába vezető oldalon. A balestben az elsődleges információk alapján nem sérült meg senki. 
 

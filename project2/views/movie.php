@@ -1,9 +1,9 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
-
+<link rel="stylesheet" href="css/views.css"  >
 <?php include_once "_header.php"; ?>
 <div class="page">
-    <h1>Box Office: A Jégvarázs 2. megsemmisítette a konkurenciát, na de mennyire?</h1>
-    <h2>Egy pillanatig sem volt kétséges, hogy a Jégvarázs 2. hatalmasat kaszál majd a mozikban, és így is történt: 127 millió dollárral nyitott, amivel a Disney átlépte a 3 milliárd dolláros éves bevételt az amerikai mozikban - és még a Skywalker kora bemutatója hátravan.
+    <h1 id="h1">Box Office: A Jégvarázs 2. megsemmisítette a konkurenciát, na de mennyire?</h1>
+    <h2 id="p">Egy pillanatig sem volt kétséges, hogy a Jégvarázs 2. hatalmasat kaszál majd a mozikban, és így is történt: 127 millió dollárral nyitott, amivel a Disney átlépte a 3 milliárd dolláros éves bevételt az amerikai mozikban - és még a Skywalker kora bemutatója hátravan.
 
 Eddig is tudtuk, hogy Disney teljesen leuralja a filmpiacot, de azért még így is megdöbbentőek a számok: a másik legtöbb éves hazai bevételt hozó stúdió a Warner Bros., ami feleekkora összeget, másfél milliárdot tudott összeszedni eddig idén. És ekkor még nem is számoltuk a Disney által idén felvásárolt Fox bevételeit, ami körülbelül félmilliárddal bővíti a kasszát.
 
@@ -19,8 +19,8 @@ Roland Emmerich háborús eposzánál már aggasztóbb a helyzet: a Midway heti 
 </div>
 
 <div class="page">
-    <h1>Tiltakozó levelet küldött a Netflixnek a lengyel kormányfő</h1>
-    <h2>MEGOSZTÁS TWEET MEGOSZTÁS EMAIL HOZZÁSZÓLÁS
+    <h1 id="h1">Tiltakozó levelet küldött a Netflixnek a lengyel kormányfő</h1>
+    <h2 id="p">MEGOSZTÁS TWEET MEGOSZTÁS EMAIL HOZZÁSZÓLÁS
 Újabb szövegrészeket illeszt be a holokauszt témájú sorozatában szereplő egyes térképekbe a Netflix, miután a lengyel kormányfő levélben tiltakozott az amerikai médiaszolgáltatónál a sorozat miatt, amely szerinte pontatlanul mutatja be országa történelmét.
 
 A Netflix Treblinka Rettegett Ivánja című dokumentumfilm-sorozata Ivan Demjanjuk ukrán háborús bűnösről szól, aki a németek által a megszállt Lengyelország területén létrehozott Treblinka haláltábor őre volt.
@@ -44,13 +44,13 @@ A Netflix közölte, hogy további szövegrészeket illeszt be a filmben szerepl
 </div>
 
 <div class="page">    
-    <h1>Az új Mulan poszteren több érdekes dolog is kiszúrható.</h1>
-    <h2>Az alkotáson jóval több részlet látható, mint a korábban publikált élőszereplős Mulan poszteren.
+    <h1 id="h1">Az új Mulan poszteren több érdekes dolog is kiszúrható.</h1>
+    <h2 id="p">Az alkotáson jóval több részlet látható, mint a korábban publikált élőszereplős Mulan poszteren.
 	A Disney számos klasszikus rajzfilm alapján készít élőszereplős mozikat, a Dumbó, az Oroszlánkirály és az Aladdin után pedig jövő tavasszal láthatjuk a Mulan filmet is. A hivatalos trailerét idén júliusban mutatta be a Disney egy promóciós poszter kíséretében, azóta viszont nem sok újdonságot láthattunk a filmmel kapcsolatban.
 	Nemrégiben viszont megjelent egy új, japán feliratos poszter, amelyen Yifei Liu alakította Mulan mögött egy (feltehetően Mushu helyére behozott) főnix is feltűnik, illetve a kardról a címszereplő harcos énjét bemutató karakter köszön vissza.
 	</h2>
 	<img src="pictures/movie/movie2.jpg" >
-	<h2>A felirat alapján Japánban jövő április 17-én debütál a film, az Egyesült Államokban pedig a tervek szerint kicsit korábban, március 27-én kerül a mozikba.
+	<h2 id="p">A felirat alapján Japánban jövő április 17-én debütál a film, az Egyesült Államokban pedig a tervek szerint kicsit korábban, március 27-én kerül a mozikba.
 
 Nektek hogy tetszik eddig az élőszereplős Mulan koncepciója?
 	</h2>

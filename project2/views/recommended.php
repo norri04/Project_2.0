@@ -1,5 +1,5 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
-
+<link rel="stylesheet" href="css/views.css"  >
 <?php include_once "_header.php"; ?>
 <div class="page">    
     <h1>Star Wars Jedi: Fallen Order előzetes - galaxis útikalauz padavanoknak.</h1>

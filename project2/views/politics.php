@@ -1,9 +1,9 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
-
+<link rel="stylesheet" href="css/views.css"  >
 <?php include_once "_header.php"; ?>
 <div class="page">
-    <h1>Orbán Viktor szerint Soros György nem akarta Várhelyi uniós biztosi kinevezését</h1>
-    <h2>Az utóbbi tíz év legnagyobb diplomáciai sikerének nevezte Várhelyi Olivér uniós biztosi kinevezését Orbán Viktor.
+    <h1 id="h1">Orbán Viktor szerint Soros György nem akarta Várhelyi uniós biztosi kinevezését</h1>
+    <h2 id="p" >Az utóbbi tíz év legnagyobb diplomáciai sikerének nevezte Várhelyi Olivér uniós biztosi kinevezését Orbán Viktor.
 
 A kormányfő az állami rádiónak adott interjúban azt mondta, hogy komoly aknamunka folyt az ellenzék részéről, hogy ez ne valósulhasson meg. Szerinte tények támasztják alá, hogy Soros György személyesen lobbizott Brüsszelben, hogy megakadályozza a kinevezést.
 Várhelyi: 2020 májusa előtt meg el kellene kezdeni a csatlakozási tárgyalásokat
@@ -18,16 +18,16 @@ A szomszédságpolitikáért és uniós bővítésért felelős biztosjelöltet 
 — Egyik legfontosabb és legsürgetőbb feladatom az lesz, hogy lehetővé tegyem azt, hogy az Európai Bizottság olyan javaslatot tudjon az asztalra tenni, ami alapján már valóban elindul a csatlakozási tárgyalás, lehetőleg még a jövő évben a Nyugat-Balkánnal foglalkozó zágrábi csúcstalálkozó előtt, tehát 2020 májusa előtt - mondta Várhelyi.
 </h2>
 	<img src="pictures/politics/politics1.jpg" >
-<h2>
+<h2 id="p">
 Várhelyi Olivért a jelen lévő kormánypárti politikusok és az egy ellenzéki képviselő nem kérdezte az Orbán Viktorhoz fűződő kapcsolatáról, és arról, hogy tervez független maradni a magyar kormánytól. A bizottsági meghallgatás után stábunk megpróbált erről is beszélni a biztosjelölttel, aki arra hivatkozva, hogy megy a gépe, nem vállalta az interjút.
 </h2>
 <a href="https://hu.euronews.com/2019/11/22/orban-viktor-szerint-soros-gyorgy-nem-akarta-varhelyi-unios-biztosi-kinevezeset">Orbán Viktor szerint...</a>
 </div>
 
 <div class="page">
-    <h1>Drákói szigorítások a magyar parlamentben</h1>
+    <h1 id="h1">Drákói szigorítások a magyar parlamentben</h1>
 	<img src="pictures/politics/politcs2.jpg" >
-    <h2>Hadházy Ákos három táblája ihlethette azokat a szigorításokat, melyeket több kormánypárti képviselő, köztük Kocsis Máté és Harrach Péter nyújtottak be.
+    <h2 id="p">Hadházy Ákos három táblája ihlethette azokat a szigorításokat, melyeket több kormánypárti képviselő, köztük Kocsis Máté és Harrach Péter nyújtottak be.
 
 Megszigorítják a fegyelmi szabályokat a magyar parlamentben kormánypárti képviselők javaslatára. Eszerint akár fél évi fizetését megvonhatják és 60 napra (vagy 24 ülésnapra) kitilthatják azt a képviselőket. A módosítás arra is lehetőséget nyújt, hogy egy képviselőt kitiltsanak a Parlament és a képviselői Irodaház épületéből – írja Szabó Szabolcs független képviselő a Facebookon. 
 
@@ -55,9 +55,9 @@ Ha egy képviselő vagy fizikai erőszakot alkalmaz ( vagy azzal fenyeget), vagy
 </div>
 
 <div class="page">    
-    <h1>A kormány végleg elállt a közigazgatási bíróságok tervétől</h1>
+    <h1 id="h1">A kormány végleg elállt a közigazgatási bíróságok tervétől</h1>
 	<img src="pictures/politics/politics3.jpg" >
-    <h2>A kormány úgy döntött, hogy nem vezeti be a szervezetileg elkülönülő közigazgatási bírósági rendszert, ám egy most készülő törvénytervezet gyorsabbá és kiszámíthatóbbá teszi a közigazgatási bíráskodást – mondta az igazságügyi miniszter csütörtökön az MTI-nek.
+    <h2 id="p">A kormány úgy döntött, hogy nem vezeti be a szervezetileg elkülönülő közigazgatási bírósági rendszert, ám egy most készülő törvénytervezet gyorsabbá és kiszámíthatóbbá teszi a közigazgatási bíráskodást – mondta az igazságügyi miniszter csütörtökön az MTI-nek.
 
 Komoly szakmai vitát követően a kormány úgy látja, hogy a bíróságot meg kell óvni a felesleges vitáktól, ezért megtartaná az egységes bírósági rendszert, nem lesz önálló közigazgatási bírósági szervezet – közölte Varga Judit.
 

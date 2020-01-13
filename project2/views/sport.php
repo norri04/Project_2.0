@@ -1,9 +1,9 @@
 <?php if (!defined('APP_VERSION')) { exit; } ?>
-
+<link rel="stylesheet" href="css/views.css"  >
 <?php include_once "_header.php"; ?>
 <div class="page">    
-    <h1>EGYETLEN CSAPAT SEM KAPOTT MÉG ANNYI GÓLT A LA LIGÁBAN, MINT A FRADI EL-RIVÁLISA</h1>
-    <h2>
+    <h1 id="h1">EGYETLEN CSAPAT SEM KAPOTT MÉG ANNYI GÓLT A LA LIGÁBAN, MINT A FRADI EL-RIVÁLISA</h1>
+    <h2 id="p">
 	Az Espanyol hazai pályán 1-1-es döntetlent játszott a Getafe csapatával a spanyol élvonalbeli labdarúgó-bajnokság 14. fordulójának vasárnap kora délutáni mérkőzésén. 
 
 A csütörtökön Budapesten a Groupama Arénában a Ferencváros ellen Európa-liga-mérkőzést játszó barcelonai csapat sorozatban negyedik bajnoki mérkőzésén maradt nyeretlen, utolsó tíz Primera División-találkozójából csak egyet nyert meg a kék-fehér együttes, és továbbra a kiesést jelentő 19., utolsó előtti helyen áll.
@@ -22,10 +22,10 @@ gól: Wu Lei 45., ill. Jaime Mata 3.
 </div>
 
 <div class="page">
-    <h1>VILÁGREKORDOT DÖNTÖTT ROGER FEDERER MEXIKÓBAN</h1>
-    <h2>Új nézőrekordot hozott Roger Federer és Alexander Zverev Mexikóvárosban tartott szombat esti bemutatómérkőzése.<img src="pictures/sports/sport1.jpg" ></h2> 
+    <h1 id="h1">VILÁGREKORDOT DÖNTÖTT ROGER FEDERER MEXIKÓBAN</h1>
+    <h2 id="p">Új nézőrekordot hozott Roger Federer és Alexander Zverev Mexikóvárosban tartott szombat esti bemutatómérkőzése.<img src="pictures/sports/sport1.jpg" ></h2> 
 
-<h2>
+<h2 id="p">
 A két világklasszis mérkőzését a hivatalos adatok szerint 42 517-es látták a mexikói fővárosban álló monumentális arénában, a Plaza de Toros Mexicóban. 
 
 A mérkőzés után a svájci sztár csak "mágikus"-nak nevezte az mexikói estét, amelyen megdöntötték Serena Williams és Kim Clijsters 2010-es 35 681 nézővel felállított rekordját.
@@ -35,14 +35,14 @@ A mérkőzés után a svájci sztár csak "mágikus"-nak nevezte az mexikói est
 </div>
 
 <div class="page">    
-    <h1>Mercedes: Nem biztos, hogy beválnak a 2021-es szabályok</h1>
-    <h2>Nehéz lesz megvalósítani a Forma-1 2021-es célkitűzéseit, de James Allison, a Mercedes technikai igazgatója izgatottan várja, hogy a hosszú egyeztetések után végre érdemben elkezdhessék a munkát az új versenyautón.
+    <h1 id="h1">Mercedes: Nem biztos, hogy beválnak a 2021-es szabályok</h1>
+    <h2 id="p">Nehéz lesz megvalósítani a Forma-1 2021-es célkitűzéseit, de James Allison, a Mercedes technikai igazgatója izgatottan várja, hogy a hosszú egyeztetések után végre érdemben elkezdhessék a munkát az új versenyautón.
 	James Allison ugyan támogatja a Forma-1-ben 2021-re tervezett szabálymódosításokat, de úgy gondolja, nehéz lesz a célkitűzéseket átültetni azokat a valóságba. A Mercede technikai igazgatója elárulta, örül, hogy a szabályalkotási folyamat lényegi része lezárult, és mostantól az autók tervezésére koncentrálhatnak.
 
 Október utolsó napján nyilvánosságra hozták a Forma-1 2021-es szabályait. A technikai előírások legfontosabb része az aerodinamikára vonatkozik, ami a tervek szerint jelentősen egyszerűsödni fog, hogy az autók könnyebben követhessék egymást. Allison szerint ez kétségtelenül elősegítené a jobb versenyzést, de egyáltalán nem biztos benne, hogy az elképzelések a gyakorlatban is vissza fognak köszönni.
 	</h2>
 	<img src="pictures/sports/sport2.jpg" >
-	<h2>
+	<h2 id="p">
 	A Mercedes technikai igazgatója egyelőre nem akar ítéletet mondani, hiszen az új szabályok még rendkívül frissek. A brit szakember szerint meg kell várni, hogyan működnek az új szabályok a gyakorlatban.
 	„A puding próbája az evés, 2021-ben kiderül, mennyire sikerült elérnünk ezeket a támogatandó, ámde nagyon nehezen megvalósítható célkitűzéseket – folytatta. – Jelenleg még nem itt tartunk, a csapatok csak most kapták meg a szabályokat.”
 
