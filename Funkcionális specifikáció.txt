@@ -31,6 +31,23 @@ A rendszer funkciói:-A Weboldal tegye lehetõvé a hozzá szólásokat egy adott hírh
 Alkalmazások müködése:	-A hivatkozások probléma nélküli mûködése
 			-Bejelentkezés hibamentes folyamata
 			-Adatbázis kapcsolat kezelése
+Vágyálom rendszer:
+
+A hírek olvasása fontos, ezáltal mûvelõdhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreirõl.
+Ezt mi lehetõvé tennénk mindenkinek egy kényelmes és felhasználóbarát környezetben.
+
+Weblapunkat html és php kódolás segítségével hoznánk létre, melyben css formázást használnánk.
+
+Ezen felül a híreket beimportálnánk valamint saját forrásból is írnánk.
+
+Phpmyadmin segítségével teremtünk adatbázis kapcsolatot, ahol a szerkesztõket tároljuk nevük, email címük, jelszavuk alapján.
+
+A design minimalista, egy átlagos külsõvel rendelkezõ weboldalt szeretnénk fejleszteni a hírek középpontba helyezésével
+
+A hírekhez lehetne hozzászólni, reagálni rájuk.
+Be lehetne küldeni új híreket, hogy naprakészek lehessünk.
+
+A szerkesztõknek lehetõsége van belépni, ezáltál teljes hozzáférést kapniuk az oldal kezeléséhez
 
 Design terv:-Egy szolid vissza fogott weboldal legyen,ami tartalmazzon egy menü sávot.
 	    -A menü sávon belül legyen felsorolva az adott hírtípusok.
