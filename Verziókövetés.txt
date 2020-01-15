@@ -83,6 +83,7 @@
  --Adatbázis táblák létrehozása a nekik szánt cikkel együtt
  --Kép mező hozzáadása adatbázisokhoz
  --Login tesztelési jegyzőkönyve
+ --Állapotátmenet gráf létrehozása az oldal működéséről
 
 
 
