@@ -82,6 +82,7 @@
  --Minden tartalom, oldal css-el való formázása, alakítása
  --Adatbázis táblák létrehozása a nekik szánt cikkel együtt
  --Kép mező hozzáadása adatbázisokhoz
+ --Login tesztelési jegyzőkönyve
 
 
 
