@@ -6,14 +6,14 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `adult`;
 CREATE TABLE IF NOT EXISTS `adult` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
-  `title` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
-  `content` varchar(1000) COLLATE utf8_hungarian_ci NOT NULL,
+  `title` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `content` TEXT COLLATE utf8_hungarian_ci NOT NULL,
   `img` BLOB,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
-INSERT INTO `adult`(`id`, `title`, `content`)
-VALUES (1,
+INSERT INTO `adult`(`title`, `content`)
+VALUES (
  "„27 éves vagyok, szűz, és még nem is csókolóztam” - Nők és férfiak vallottak arról, miért nem feküdtek le még senkivel",
 "Vették a bátorságot, és az interneten árulták el az okokat.
 Mindenkinél máskor jön el az idő, amikor úgy érzi, készen áll arra, hogy testi kapcsolatot létesítsen a párjával. Vannak, akik korábban, vannak, akik később veszítik el a szüzességüket, a lényeg, hogy akkor tegyék meg, amikor felkészültnek érzik magukat, és azzal, akit igazán szeretnek. Mert ez egy igazán fontos esemény a nők és a férfiak életében is. Néhányan talán mások szemében meglepően sokáig őrzik az ártatlanságukat, egy bátor fórumozó pedig fel is dobta a témát a Redditen. Azt kérdezte, hogy azok, akik felnőttként sem szeretkeztek még senkivel, miért döntöttek így, vagy milyen egyéb okok állnak ennek a hátterében. A kíváncsiskodó hozzászóló írására rengeteg válasz érkezett: vannak köztük szomorú és meglepő történetek is.
@@ -29,8 +29,8 @@ Karrier-központúság és félénkség
 Voltak olyanok is, akik az életük más területére helyezik inkább a hangsúlyt, de sajnos akadt, akinek csupán a félénkség szabott gátat.- 24 éves vagyok, szingli és szűz. Azért, mert egy független nő vagyok, akinek nincs szüksége férfira. Na jó, csak vicceltem, de tényleg inkább a karrieremre szeretnék még fókuszálni. Ráadásul úgy érzem, hogy a huszonéves pasik folyamatosan csak arra keresik a lehetőséget, hogy lefektessenek valakit. Lehet, hogy tévedek, de így gondolom. Ebben a korban elég kevés ember akar komoly, mély és hosszú távú kapcsolatot egy olyan partnerrel, aki mellett megállapodhat. Én viszont egy igazi, romantikus szerelemre vágyom - írta egy hozzászóló.");
 COMMIT;
 
-INSERT INTO `adult`(`id`, `title`,`content`)
-VALUES(2, 
+INSERT INTO `adult`( `title`,`content`)
+VALUES(
 "Ha erről faggatja a szülő a felnőtt gyerekét, csak eltolja magától - 4 viselkedés, ami eltávolodást idéz elő",
 "Van, hogy a szülő csak jót akar, és észre sem veszi, hogy a viselkedése meggyengíti a felnőtt gyermekével való kapcsolatát. A szülő és gyermeke közötti kapcsolat az idő múlásával folyamatosan változik. Míg kicsi korban mindenkinek szüksége van az anya és az apa gondoskodására, segítségére, felnőttkorban ez az igény egyre inkább csökken. A leválás és az elengedés viszont nem mindig megy olyan könnyen és zökkenőmentesen. A szülők néha még akkor is túlzásba viszik az aggódást, a kérdezősködést és a tanácsadást, amikor gyerekük már saját életet kezdett, és szeretne önállóan boldogulni. Érdemes inkább óvatosan kezelni ezt a helyzetet, ugyanis néhány viselkedés pont az ellenkezőjét éri el annak, amit az anya vagy az apa szeretne: nem közelebb viszik őket egymáshoz gyermekükkel, hanem eltolják őket maguktól. A következő szokások gyorsan eltávolodást eredményeznek.
 „És, megismerkedtél mostanában valakivel?”
@@ -42,8 +42,8 @@ A szülők hajlamosak olyan pálya és olyan munkahely felé terelni a felnőtte
 COMMIT;
 
 
-INSERT INTO `adult`(`id`, `title`,`content`)
-VALUES(3, "Mérgező felnőtt viszonyok a gyerek körül: hogyan kell kezelni a pszichológus szerint?",
+INSERT INTO `adult`( `title`,`content`)
+VALUES( "Mérgező felnőtt viszonyok a gyerek körül: hogyan kell kezelni a pszichológus szerint?",
 "Egyáltalán nem mindegy, hogyan kommunikáljuk, hogyan magyarázzuk a gyerek előtt a rossz viszonyt. Borzasztóan szerencsés, ha egy család tagjai békében és nyugalomban, szeretetben tudnak együtt élni, és szerencsés az a gyerek is, aki ilyen légkörben nőhet fel. Sajnos azonban sok családban vannak egymással rossz viszonyban, és ez akarva-akaratlanul a gyerekhez is eljut. Ahol mindennaposak a konfliktusok, hangosak a viták, nem könnyű sem felnőttnek, sem gyereknek lenni. Miután azonban a gyereket a felnőttek vitái még érzékenyebben érintik, fontos figyelni rá, mit és hogyan kommunikálnak felé a rossz viszonyban élő felnőttek, és hogyan viselkednek, vitáznak előtte.A pszichológust, Sákovics Dianát, a Dívány.hu főszerkesztő-helyettesét kérdeztük meg a témában.
 
 Veszekedhetünk-e a gyerek előtt?
