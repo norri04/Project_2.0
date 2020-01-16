@@ -7,6 +7,8 @@ include_once "functions.php";
 
 $page = isset($_GET['p']) ? $_GET['p'] : 'home';
 
+$db = mysqli_connect("localhost","root","","hirek");
+
 if (file_exists("./views/{$page}.php")) {
     include_once "./views/{$page}.php";
 } else {

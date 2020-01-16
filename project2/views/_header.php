@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+    
         <div class="container">
             <a class="logo" href="<?php echo url(); ?>">QLA News</a>
             <nav>

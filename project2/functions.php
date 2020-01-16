@@ -34,5 +34,5 @@ function html_errors($key) {
     }
     return $html;
 }
-global $db;
+
 ?>

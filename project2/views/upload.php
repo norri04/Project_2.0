@@ -3,13 +3,16 @@
 
 
 <?php
+$conn=mysqli_connect("localhost","root","","hirek");
+$conn->set_charset('utf8');
+
     $errors = [];
     if (is_post()) {
         $selected = $_POST['options'];
         $title = $_POST['title'];
         $content = $_POST['content'];
         if($selected == "choose"){
-            $errors['selected'][]= "Kötelezőtémát választani!";
+            $errors['selected'][]= "Kötelező témát választani!";
         }
         if ($title == null) {
             $errors['title'][] = "A cím mezőt kötelező kitölteni!";
@@ -23,7 +26,7 @@
         }
 
         if ($content == null) {
-            $errors['content'][] = "A tartalom mezőt kötelezőkitölteni!";
+            $errors['content'][] = "A tartalom mezőt kötelező kitölteni!";
         } else {
             if (strlen($content) < 100) {
                 $errors['content'][] = "A tartalom mező legalább 100 karakteres kell hogy legyen!";
@@ -36,55 +39,64 @@
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "animal":
                 $sql = $db->prepare("INSERT INTO `animal` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
+                
             break;
             case "celebrity":
                 $sql = $db->prepare("INSERT INTO `celebrity` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "game":
                 $sql = $db->prepare("INSERT INTO `game` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "kids":
                 $sql = $db->prepare("INSERT INTO `kids` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "movie":
                 $sql = $db->prepare("INSERT INTO `movie` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "politics":
                 $sql = $db->prepare("INSERT INTO `politics` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "sport":
                 $sql = $db->prepare("INSERT INTO `sport` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
+                header('location:?p=home');	
             break;
             case "transport":
                 $sql = $db->prepare("INSERT INTO `transport` (`title`, `content`) VALUES (?, ?)");
                 $sql->bind_param("ss", $title, $content);
                 $sql->execute();
                 $sql->close();
-                echo "Sikeres feltöltés";
+                header('location:?p=home');
             break;
             }
         }
@@ -99,7 +111,7 @@
 <form method="POST">
 <div class="form-group">
     <select name="options">
-        <option value="choose">Válassza ki a témát!</option>
+        <option value="choose" >Válassza ki a témát!</option>
         <option value="adult">Felnőtt</option>
         <option value="animal">Állat</option>
         <option value="celebrity" >Híresség</option>
@@ -110,6 +122,7 @@
         <option value="sport">Sport</option>
         <option value="transport">Közlekedés</option>
    </select>
+   <?php echo html_errors('selected'); ?>
 </div>
 
     <div class="form-group<?php echo isset($errors['title']) ? " has-error" : "" ?>">
