@@ -1,0 +1,103 @@
+2019.11.13
+-Követelmény specifikáció
+
+2019.11.18 - v1.0
+-PHP kódolás, weboldal kezdetleges formája
+  --Header, footer, main oldal
+  --Css formázás, design
+  --Függvények: Átirányítás, url
+  --404-es hibakód hibás url alapján
+  --Config, domain
+
+2019.11.18 - v1.0.1
+-Kisebb hibajavítások
+  --Kinézet javítása, menü megjelenítése, tesztszövegek a hírek helyére.
+
+2019.11.18 - v1.1
+-Aloldalak létrehozása, javítások
+  --További szín módosítások
+  --Domain módosítása
+  --Aloldalak linkelése, legördülő sáv, teszt szövegek hozzáadása
+
+2019.11.18 - v1.1.1
+-További css formázások, aloldal finomítások
+
+2019.11.21 - v1.2
+-Bejelentkezési funkció
+  --"Connection.php" az adatbázis kapcsolathoz
+  --Bejelentkezési oldal
+  --Szövegek, boxok formázása (bootstrap)
+  --Login tábla a szerkesztőknek, ők tudnak belépni
+  --".htaccess" file a login oldallal való kezdés érdekében
+
+2019.11.22 - v1.2.1
+-Bejelentkezés, finomítások
+  --Bejelentkezés gomb a fejlécben
+  --Feltöltés menüpont létrehozása
+  --".htaccess" visszavonása
+
+2019.11.24 - v1.2.2
+-Bejelentkezés, Kijelentkezés, hibajavítás
+  --Bejelentkezés módjának frissítése
+  --"logout.php" létrehozása a kijelentkezésre
+  --Bejelentkezés gomb a fejlécben dinamikusan
+    változzon bejelentkezési státusz alapján (NEM MŰKÖDIK)
+  --_header.php módosítása
+
+2019.11.25 - v1.3
+-Teszt szövegek lecserélése, tartalom hozzáadása
+  --Képek, szövegek létrehozása minden egyes oldal számára
+-Funkcionális specifikáció létrehozása
+
+2019.12.02 - v1.3.1
+-Funkcionális specifikáció bővítése, képcsatolások
+
+2019.12.03 - v1.3.2
+-Felsesleges fájlok törlése, rendezések
+  --Extra mappa törlése
+  --Könyvtáron belüli optimalizálás
+
+2019.12.03 - v1.3.3
+-Bővítések, tesztek
+  --Funkspec, kövspec finomítása, teszt dokumentom létrehozása
+  --Újabb feleslegek törlése
+
+2019.12.04 - v1.4
+-Home, Header oldal
+  --Ajánlott topik törlése
+  --Kezdőoldal tartálmának hozzáadása, felülírása
+  --Feltöltés opció inaktivitása a bejelentkezés hibái miatt
+
+2019.12.08 - v1.4.1
+-Tesztelési jegyzőkönyv 1,2
+
+2020.01.11 - v1.5
+-Login, logout, header fájlok módosítása
+ --Bejelentkezés, kijelentkezés működőképes, kizárólag adminok léphetnek be
+ --Státusztól függő üzenet a fejlécben, bejelentkezve email cím és kijelentkezésre vált
+   a bejelentkezés gomb
+
+2020.01.13 - v1.6
+-Szövegformázás, adatbázis
+ --Minden tartalom, oldal css-el való formázása, alakítása
+ --Adatbázis táblák létrehozása a nekik szánt cikkel együtt
+ --Kép mező hozzáadása adatbázisokhoz
+ --Login tesztelési jegyzőkönyve
+ --Állapotátmenet gráf létrehozása az oldal működéséről
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
