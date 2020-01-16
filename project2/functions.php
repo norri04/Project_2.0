@@ -19,4 +19,20 @@ function redirect($page = 'home', $params = []) {
     header("Location: $url");
     die();
 }
+
+function is_post() {
+    return $_SERVER['REQUEST_METHOD'] == 'POST';
+}
+function html_errors($key) {
+    global $errors;
+
+    $html = "";
+    if (isset($errors[$key])) {
+        foreach ($errors[$key] as $error) {
+            $html .= "<p class='input-error'>$error</p>";
+        }
+    }
+    return $html;
+}
+global $db;
 ?>
