@@ -1,21 +1,135 @@
-TesztelÃ©si jegyzÅ‘kÃ¶nyvek:
+Vágyálom rendszer:
 
-	4. tesztelÃ©si jegyzÅ‘kÃ¶nyv
-A teszt-eset leÃ­rÃ¡s Ã©s cÃ©lja:
-A teszttel a program hibÃ¡it szeretnÃ©nk kikÃ¼szÃ¶bÃ¶lni, illetve mÅ±kÃ¶dÅ‘ rÃ©szeit lezÃ¡rtnak tekinteni
-A tesztterv alapjÃ¡t a dokumentumok kÃ©pezik, ezek alapjÃ¡n futjuk Ã¡t a projektet.
+A hírek olvasása fontos, ezáltal mûvelõdhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreirõl.
+Ezt mi lehetõvé tennénk mindenkinek egy kényelmes és felhasználóbarát környezetben.
 
-A tesztelt folyamat/funkciÃ³ leÃ­rÃ¡sa:
-FeltÃ¶ltÃ©s validÃ¡ciÃ³i 
+Weblapunkat html és php kódolás segítségével hoznánk létre, melyben css formázást használnánk.
 
-A tesztelÃ©s elÅ‘feltÃ©telei:
-- Wamp szerver
-- TesztkÃ¶rnyezet ismerete
-- AdatbÃ¡zis mÅ±kÃ¶dÃ©sÃ©nek ismerete
-- AdatbÃ¡zis hasznÃ¡lata
+Ezen felül a híreket beimportálnánk valamint saját forrásból is írnánk.
 
-A tesztelÃ©s dÃ¡tuma Ã©s idÅ‘pontja:
-2020.01.16.
+Phpmyadmin segítségével teremtünk adatbázis kapcsolatot, ahol a szerkesztõket tároljuk nevük, email címük, jelszavuk alapján.
 
-A tesztet vÃ©gzÅ‘ szemÃ©ly(ek):
-SzabÃ³ NÃ³ra
+A design minimalista, egy átlagos külsõvel rendelkezõ weboldalt szeretnénk fejleszteni a hírek középpontba helyezésével
+
+A hírekhez lehetne hozzászólni, reagálni rájuk.
+Be lehetne küldeni új híreket, hogy naprakészek lehessünk.
+
+A szerkesztõknek lehetõsége van belépni, ezáltál teljes hozzáférést kapniuk az oldal kezeléséhez.
+
+
+
+
+
+
+
+
+Tesztek:Teszt 1.
+A teszt-eset leírás és célja:A teszttel a program hibáit szeretnénk kiküszöbölni, illetve mûködõ részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:Az oldal külsõleg hibátlan.
+A designak megfelelt.
+
+A tesztelés elõfeltételei:Tesztkörnyezet, szükséges erõforrások
+
+-Dokumentációk ismerete
+-Wamp
+A tesztelés dátuma és idõpontja:2019.12.08
+
+A tesztet végzõ személy(ek):Szabó Patrik
+
+A tesztelt rendszer beállításai:phpmyadmin az oldal és adatbázis hozzáféréséhez
+-db nevû mappában található hirek
+
+A tesztelés eredménye:Megfelelt.
+
+Teszt 2.
+A teszt-eset leírás és célja:A teszttel a program hibáit szeretnénk kiküszöbölni, illetve mûködõ részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:phpmyadmin alapbeállítások
+db mappába levõ connection.php, és hirek.sql file
+admin@admin.com email, admin jelszó
+
+
+-Dokumentációk ismerete
+-Wamp
+A tesztelés dátuma és idõpontja:2019.12.08
+
+A tesztet végzõ személy(ek):Szabó Patrik
+
+A tesztelt rendszer beállításai:phpmyadmin alapbeállítások
+db mappába levõ connection.php, és hirek.sql file
+admin@admin.com email, admin jelszó
+
+
+A tesztelés eredménye:Megfelelt.
+
+Teszt 3.
+A teszt-eset leírás és célja:A teszttel a program hibáit szeretnénk kiküszöbölni, illetve mûködõ részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:Bejelentkezés
+
+-Dokumentációk ismerete
+-Wamp
+A tesztelés dátuma és idõpontja:2020.01.16.
+
+A tesztet végzõ személy(ek):Belkovics Dénes
+
+A tesztelt rendszer beállításai:phpmyadmin alapbeállítások
+db mappába levõ connection.php, és hirek.sql file
+admin@admin.com email, admin jelszó
+
+
+A tesztelés eredménye:Megfelelt.
+
+Teszt 4.
+
+A teszt-eset leírás és célja:A teszttel a program hibáit szeretnénk kiküszöbölni, illetve mûködõ részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:Feltöltés validációi 
+
+-Dokumentációk ismerete
+-Wamp
+A tesztelés dátuma és idõpontja:2020.01.16.
+
+A tesztet végzõ személy(ek):Szabó Nóra
+
+A tesztelt rendszer beállításai:- Téma kiválasztottalanul hagyása esetén hiba
+- Túl rövid cím esetén hiba
+- Túl hosszú cím esetén hiba
+- Túl rövid tartalom esetén hiba
+- Megfelelõ témához való feltöltés
+- Megfelelõ témánál való megjelenítés
+
+
+
+A tesztelés eredménye:Megfelelt.
+
+Teszt 5.
+
+A teszt-eset leírás és célja:A teszttel a program hibáit szeretnénk kiküszöbölni, illetve mûködõ részeit lezártnak tekinteni
+
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:Adatbázisba feltöltés validálás után
+
+-Dokumentációk ismerete
+-Wamp
+A tesztelés dátuma és idõpontja:2020.01.16.
+
+A tesztet végzõ személy(ek):Szabó Nóra
+
+A tesztelt rendszer beállításai:- Validáció sikeressége után a megfelelõtáblába való feltöltés
+- Feltöltés után a megfelelõ aloldalon való megjelenítés
+
+
+
+
+A tesztelés eredménye:Megfelelt.
