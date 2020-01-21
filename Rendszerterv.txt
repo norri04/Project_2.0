@@ -1,0 +1,21 @@
+Tesztelési jegyzőkönyvek:
+
+	4. tesztelési jegyzőkönyv
+A teszt-eset leírás és célja:
+A teszttel a program hibáit szeretnénk kiküszöbölni, illetve működő részeit lezártnak tekinteni
+A tesztterv alapját a dokumentumok képezik, ezek alapján futjuk át a projektet.
+
+A tesztelt folyamat/funkció leírása:
+Feltöltés validációi 
+
+A tesztelés előfeltételei:
+- Wamp szerver
+- Tesztkörnyezet ismerete
+- Adatbázis működésének ismerete
+- Adatbázis használata
+
+A tesztelés dátuma és időpontja:
+2020.01.16.
+
+A tesztet végző személy(ek):
+Szabó Nóra
