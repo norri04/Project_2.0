@@ -137,14 +137,39 @@ A tesztelt rendszer beállításai:- Validáció sikeressége után a megfelelõtáblába 
 
 
 
-
 A tesztelés eredménye:Megfelelt.
 
 
 
 Teszt terv:
 
--- valaki?
+A tesztelési terv a tesztelés teljes körûségének biztosítása, a tesztelés során alkalmazott megoldások meghatározásával.
+Elvárások: Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
+Szükséges erõforrások: Létezõ adatbázis, wamp szerver.
+
+A tesztek végrehajtásához szükséges rekordok száma: Legalább egy, minden táblában
+	-Az alapadatok értékkészlete az éles rendszerével megegyezõ kell hogy legyen
+
+Az összes teszt dokumentáció elérhetõ ebben a fájlban, vagy a gyökérmappában.
+
+Tesztelési eszköz: Különféle adatokkal és állapotokkal vizsgáljuk a kimenetet egy adott bemenetre.
+
+Teszt típusa: unittesztek, modultesztek. A teszteknek meg kell felelniük a kritériumoknak, értesíteniük kell a felhasználót hiba esetén,
+formailag meg kell felelniük, és funkcionálisan is a lehetõ leghatékonyabbnak kell lennie.
+
+Szükséges lépések:
+-Fejlesztõi teszt
+-Modulteszt
+-Integrációs teszt
+-Elfogadási teszt
+
+Teszt ütemterv: Új metódus esetén azonnali helyi tesztek, teszt jegyzõkönyv kitöltése ajánlott.
+		Hiba esetén a hiba megállapítása, és annak kijavítása
+		Kijavítás esetén ujabb jegyzõkönyv készítése
+
+Tesztelési jegyzõkönyvek
+
+Végül pedig jóváhagyás
 
 
 Adatbázis kapcsolat
