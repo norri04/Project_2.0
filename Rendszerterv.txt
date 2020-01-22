@@ -1,3 +1,9 @@
+Rendszerterv tartalomjegyzék:
+- Vágyálom rendszer
+- Tesztek
+- Teszt terv
+- Adatbázis kapcsolat
+
 Vágyálom rendszer:
 
 A hírek olvasása fontos, ezáltal mûvelõdhetünk, tájékozódhatunk a világunk problémáiról vagy épp örömhíreirõl.
@@ -133,3 +139,13 @@ A tesztelt rendszer beállításai:- Validáció sikeressége után a megfelelõtáblába 
 
 
 A tesztelés eredménye:Megfelelt.
+
+
+
+Teszt terv:
+
+-- valaki?
+
+
+Adatbázis kapcsolat
+Az adatbázis kapcsolatot a wamp szerver és a phpmyadmin segítségével hoztunk létre, melyek lehetõvé tették az adatok tárolását, törlését, a velük való mûveleteket, megjelenítést. Ezzel plusz munkát spóroltunk meg. Az adatokat egy helyen tudtuk tárolni, jól rendszerezve, külön táblákban. Ezzel azt is elértük, hogy az egyik futtatáskor bevitt adatok nem vesznek el, így valós adatokkal is dolgozhatunk, ettõl pedig reálisabb lett a weboldalunk. Két külön táblát használtunk az adatbázisunkban, az egyiket a bejelentkezéshez, a másikat a hírekhez. Mindkét esetben használtunk kódolást(utf8_hungarian_ci pontosabban), a mezõket pedig az adatbázis táblájához megfelelõen elneveztük és az ahhoz megfelelõ típust állítottuk be. Fontos volt, hogy az adott típus mérete megfelelõ legyen, figyelnünk kellett a korlátokra. De ha elrontottuk volna elsõ próbálkozásra, a phpmyadmin adatbázisában is van olyan opció, hogy az adatszerkezetet is lehet változtatni. Ez nagy hasznunkra vált. Lehetõségünk volt a speciális azonosító mezõjét is saját gondolatunk alapján automatikusan növekvõre és egyedire állítani, így biztosítottuk hogy minden egyes rekordnak legyen egy egyedi azonosítója amivel hivatkozhatunk rá és így biztosan a jó rekorddal dolgozunk. Ezt úgyértük el, hogy php kódnyelvben, ami az egész weblapunk alapja, hoztunk létre kacsolatot beépített függvényekkel az adatbázissal. Használtunk lekérdezéseket, de táblamódosító nyelvet is, például a hírek felvitelénél INSERT-et, ami elentõsen egyszerûvé tette a dolgunkat. 
