@@ -1,7 +1,7 @@
 Rendszerterv
 
 A rendszer célja , hogy egy olyan weboldalunk legyen ami több féle hírt tesz közzé, és lehessen híreket hozzá adni a hír topicokhoz, legyenek felhasználók és ezt tüntessük fel a weboldalon.
-Projekt terv: -3 fejlesztõ áll rendelkezésre , a projektet 219. 11. 11. kezdik és 2020.01.15. az utolsó határ idõ.
+Projekt terv: -3 fejlesztõ áll rendelkezésre , a projektet 2019. 11. 11. kezdik és 2020.01.15. az utolsó határ idõ.
 		-Mindhárman tesztelnek és közösen alakítják ki  a weboldal designját, Szabó Nóra felel a hírek hozzá adás lehetõségért , Belkovics Dénes pedig a bejelentkezésért, Szabó Patrik a hírek össze szedéséért.
 		-A mérföldköveket a https://github.com/norri04/Project_2.0  ezen a linken a versio követés.txt-ben található.
 
@@ -10,8 +10,58 @@ Követelmények: -Legyen külön felület a bejelentkezésre és a felhasználókat adatb
 		       -Legyen lehetõség hír hozzá adásra egy hír topichoz és az ne térjen el a többi desing-tól , és adatbázisban tároljuk el azokat.
 	-Nem funkcionális követelmény de fontos megemlíteni hogy a design legyen vissza fogott, szolid.
 
+	-Az Európai Uniós jogszabályok:
+		Az elektronikus ügyintézést, illetve elektronikus közszolgáltatásokat szabályozó uniós jogszabályok
+		közül ki kell emelni az alábbiakat, amelyek a hazai szabályozás alapját jelentik:
+			- Az Európai Parlament és a Tanács 95/46/EK irányelve (Adatvédelmi Irányelv).
+			- Az Európai Parlament és a Tanács 1999/93/EK Irányelve az elektronikus aláírással
+			kapcsolatos közösségi keretrendszerrõl,
+			- Az Európai Parlament és a Tanács 2003/98/EK Irányelve a közszféra információinak
+			további felhasználásáról,
+			- COM (2006) 173 — i2010 eGovernment cselekvési terv - az elektronikus kormányzat
+			létrehozásának felgyorsítása a társadalom egészének javára,
+			- COM (2010) 245 — Európai digitális menetrend.
+			- Az Európai Parlament és a Tanács 910/2014/EU Rendelete a belsõ piacon történõ
+			elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi
+			szolgáltatásokról (eIDAS Rendelet). 
+
 Funkcionális terv: -A fentiekben említett funkciók megírása és késsöbbi egyeztetés során , kidrül miben kell változtatni.
 			-Az adatbázis kapcsolat wampserver és PhpMyAdmin MySql kapcsolat legyen/tartalmazzon.
 			-A weboldalt php és html tag-ekkel alkossák/ képezzék le a weboldalt és a formázást CSS el oldjál meg.
 
-Fizikai környezet: -A weboldalt lehessen megnyitni barmely böngészõvel és bármely rendszeren, akár telfonon is hogy szélesebb kört találjon meg a weboldal.
+			UML: Home-> Login-> Témák: Gyerek, felnõtt, sport, politika, állat, celeb, közlekedés, játék, film
+
+Fizikai környezet: -A weboldalt lehessen megnyitni barmely böngészõvel és bármely rendszeren, akár telefonon is hogy szélesebb kört találjon meg a weboldal.
+
+Adatbázis terv: -Egy adatbázisban tárolunk tíz darab táblát, melyek:
+		 -Hirek.sql a szerkesztõ személyek tárolására és beléptetésére
+		 -adult-,animal-,celebrity-,game-,hirek-,kids-,movie-,politics-,sport-,transport.sql fájlok
+		 -Tárolt eljárások nincsenek.
+
+Implementációs terv: -A bejelentkezés függvény egy globális változókat fog készíteni az adatbázisban szereplõ adatokból, melyeket felhasznál és megjelenít
+		     - "mysqli_connect" segítségével érjük el az adatbázist, aminek a neve "hirek"
+		     -Minden lapunk implementálja a headert és footert, alapértelmezettként
+		     -URL osztásra, átirányításra, és hibaüzenetre is implementálunk egyes függvényeket
+		     -Minedn topicnak van egy php fájlja, amiben az adott tartalmat tároljuk és kezeljük
+		     -css formázást használunk
+		     -Képeket a pictures mappából használjuk fel a posztokhoz illusztráció jelleggel
+
+Tesztterv: 
+	Elvárások: Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
+	Szükséges erõforrások: Létezõ adatbázis, wamp szerver.
+
+	A tesztek végrehajtásához szükséges rekordok száma: Legalább egy, minden táblában
+	-Az alapadatok értékkészlete az éles rendszerével megegyezõ kell hogy legyen
+
+	Az összes teszt jegyzõkönyv megtalálható legyen a mappában.
+
+	Tesztelési eszköz: Különféle adatokkal és állapotokkal vizsgáljuk a kimenetet egy adott bemenetre.
+
+	Teszt típusa: unittesztek, modultesztek. A teszteknek meg kell felelniük a kritériumoknak, értesíteniük kell a felhasználót hiba esetén,
+	formailag meg kell felelniük, és funkcionálisan is a lehetõ leghatékonyabbnak kell lennie.
+
+	Teszt ütemterv: -Új metódus esetén azonnali helyi tesztek, teszt jegyzõkönyv kitöltése ajánlott.
+			-Hiba esetén a hiba megállapítása, és annak kijavítása
+			-Kijavítás esetén ujabb jegyzõkönyv készítése
+
+Telepítési terv: A szoftverterméket a végfelhasználók részérõl nem terheli a  telepítés, hiszen egy weboldal
