@@ -65,3 +65,16 @@ Tesztterv:
 			-Kijavítás esetén ujabb jegyzõkönyv készítése
 
 Telepítési terv: A szoftverterméket a végfelhasználók részérõl nem terheli a  telepítés, hiszen egy weboldal
+
+Menü hierarchia tervezés:
+Weblapunkon található egy menüszalag, melyen az oldal logója, valamint szöveges opciók vannak
+megjelenítve. Ezek a kezdõlap, témák, bejelentkezés és feltöltés menüpontok.
+Az oldal logójára kattintva ugyanazt láthatjuk, mint a Kezdõlapra kattintva. Itt ajánlott témákat
+válogattunk össze, melyeket meg is jelenítettünk.
+A Témák opció egy lenyíló lista, melyben a külömbözõ topikok közül lehet választani. Miután ez
+megtörtént, megjelenítjük az adott témában kiválogatott híreket.
+A Bejelentkezés fül alatt lehet adminként felkapcsolódni az oldalra, innentõl kezdve a bejelentkezés
+opció helyén ott lesz az admin neve.
+Bejelentkezés után a kijelentkezés is elérhetõ, erre kattintva ismét a kezdõ felületet kapjuk.
+A Feltöltés menüpont lehetõvé teszi a hírek feltöltését adott témába, amit szintén megjelenítünk 
+újratöltéskor.
